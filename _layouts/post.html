@@ -40,12 +40,6 @@ layout: default
       </a>
       {% endfor %}
     </div>
-    <div class="post-tags">
-      <span>{{ site.data.lang[site.language].post_tags }}</span>
-      {% for tag in page.tags %}
-      <span class="post-tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
     <div class="post-other">
       {% if page.next %}
       <div>

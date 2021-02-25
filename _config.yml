@@ -2,15 +2,15 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Your title
+title: Random Blog 
 email: your-email@example.com
-name: Your name
+name: Jamey
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-keywords: [Your keywords]
+  Stop reading these words.
+keywords: [security]
 baseurl: '' # the subpath of your site, e.g. /`blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'example.com' # the domain name for your site, e.g. example.com
+url: 'https://jamey.info' # the base hostname & protocol for your site, e.g. http://example.com
+domain: 'jamey.info' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
