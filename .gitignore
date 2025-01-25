@@ -7,7 +7,9 @@ _site/
 vendor/
 
 .DS_Store
+.thumbs.db
 Gemfile.lock
+
 
 # VS Code files for those working on multiple tools
 .vscode/*
