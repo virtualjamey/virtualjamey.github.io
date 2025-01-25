@@ -1,6 +1,7 @@
 # Site settings
+# Source repository https://github.com/elainefs/jekyll-theme-case
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://USERNAME.github.io
+url: "https://jamey.one" # the base hostname & protocol for your site, e.g. https://USERNAME.github.io
 
 # Change to your lang - This doesn't translate the theme, it just defines the main language the content is written in.
 lang: en
