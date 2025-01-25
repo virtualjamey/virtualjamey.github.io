@@ -14,13 +14,13 @@ description: A Jekyll theme with sidebar for personal website and blog.
 avatar: "assets/img/avatar/glasses.png" # The avatar on sidebar
 
 # Social profiles
-email: youemail@domain.com
-github: elainefs
-linkedin: elaineferreiras
+email: email@jamey.one
+github: virtualjamey
+linkedin: jameyseman
 instagram:
-mastodon:
-  instance: mastodon.social
-  user: elainefs
+# mastodon:
+#   instance: mastodon.social
+#   user: elainefs
 
 # Url for you account: Buy Me A Coffee, Ko-fi, Patreon, etc.
 donate:
