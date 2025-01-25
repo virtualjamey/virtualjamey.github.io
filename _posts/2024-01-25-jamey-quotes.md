@@ -1,7 +1,7 @@
 ---
 title: Jamey Quotes
 description: A place to keep all my favorite quotes.
-date: 2024-01-24 13:54:37 -0300
+date: 2025-01-24 13:54:37 -0300
 image:
   path: "/assets/img/posts/wall.png"
   alt: "Breaking Through The Wall"
