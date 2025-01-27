@@ -10,7 +10,7 @@ vendor/
 .thumbs.db
 Gemfile.lock
 
-
+_archive
 # VS Code files for those working on multiple tools
 .vscode/*
 !.vscode/settings.json
