@@ -28,7 +28,7 @@ tags:
 
 ## Essentialism
 
-> Essentialism is about learning how to do less but better so you can achieve the highest possible return on *every precious moment of your life*. - Essentialism (McKeown)
+> Essentialism is about learning how to do less but better so you can achieve the highest possible return on **every precious moment of your life**. - Essentialism (McKeown)
 
 ## Systems
 
