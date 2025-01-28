@@ -2,8 +2,29 @@
 # https://github.com/simple-icons/simple-icons/blob/master/slugs.md
 
 skills:
-  - skill: jekyll
-  - skill: html5
-  - skill: css3
-  - skill: javascript
-  - skill: bootstrap
+  - skill: 1password
+  - skill: amazoniam
+  - skill: ansible
+  - skill: apple
+  - skill: audible
+  - skill: awssecretsmanager
+  - skill: cloudflare
+  - skill: docker
+  - skill: bruno
+  - skill: github
+  - skill: githubactions
+  - skill: githubcopilot
+  - skill: githubpages
+  - skill: godaddy
+  - skill: isc2
+  - skill: jira
+  - skill: letsencrypt
+  - skill: linux
+  - skill: mlb
+  - skill: openstack
+  - skill: python
+  - skill: hashicorp
+  - skill: shell
+  - skill: redhat
+
+
