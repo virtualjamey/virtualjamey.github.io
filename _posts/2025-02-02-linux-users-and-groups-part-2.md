@@ -1,7 +1,7 @@
 ---
 title: Linux Users and Groups Part Two
 description: More basics of Linux users and groups
-date: 2025-02-01 16:40:00 -0300
+date: 2025-02-02 21:40:00 -0300
 # image:
 #   path: "/assets/img/posts/wall.png"
 #   alt: "Breaking Through The Wall"
@@ -120,7 +120,9 @@ Explanation of each part:
 - `username ALL=(specific_user:ALL) ALL`: The specified user can run any command as the specific user.
 - `username ALL=(ALL:ALL) NOPASSWD: ALL`: The specified user can run any command as any user or group without being prompted for a password.
 
+## Conclusion
 
+This article provided an overview of Linux user and group management commands, including `whoami`, `users`, `who`, `w`, `id`, `groups`, and `su`. It also covered the `sudo` command and the `visudo` command for editing the sudoers file. Understanding these commands is essential for managing users and groups on a Linux system.
 
 
 

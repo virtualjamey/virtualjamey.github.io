@@ -1,7 +1,7 @@
 ---
 title: Linux Users and Groups Part One
 description: Basics of Linux users and groups
-date: 2025-02-01 16:40:00 -0300
+date: 2025-02-02 20:40:00 -0300
 # image:
 #   path: "/assets/img/posts/wall.png"
 #   alt: "Breaking Through The Wall"
