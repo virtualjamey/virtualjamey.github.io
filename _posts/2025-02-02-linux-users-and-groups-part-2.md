@@ -86,6 +86,7 @@ The sudoers file uses a specific syntax to define user permissions. The followin
 
 # Clears environment variables by default
 Defaults    env_reset
+
 # Defines a secure path for executing commands
 Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
