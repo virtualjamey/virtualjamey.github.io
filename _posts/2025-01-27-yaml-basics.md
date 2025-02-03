@@ -1,6 +1,6 @@
 ---
-title: YAML 101
-description: Just the facts about YAML
+title: YAML Basics
+description: Basics of YAML
 date: 2025-01-27 19:55:37 -0300
 # image:
 #   path: "/assets/img/posts/wall.png"

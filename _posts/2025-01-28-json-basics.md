@@ -1,6 +1,6 @@
 ---
-title: JSON 101
-description: Just the facts about JSON
+title: JSON Basics
+description: Basics of JSON
 date: 2025-01-28 15:14:00 -0300
 # image:
 #   path: "/assets/img/posts/wall.png"

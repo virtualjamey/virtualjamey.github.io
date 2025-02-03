@@ -1,6 +1,6 @@
 ---
-title: GitHub CLI 101
-description: Just the facts about the GitHub CLI
+title: GitHub CLI Basics
+description: Basics of the GitHub CLI
 date: 2025-01-30 14:40:00 -0300
 # image:
 #   path: "/assets/img/posts/wall.png"
