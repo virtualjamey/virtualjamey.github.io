@@ -19,15 +19,15 @@ tags:
   - fundamentals
 ---
 
-### What is YAML?
+## What is YAML?
 
 YAML Ain't Markup Language (YAML) is a human-readable data serialization format that is commonly used for configuration files and data exchange.
 
-#### YAML Document Structure
+## YAML Document Structure
 
 A YAML document consists of one or more YAML nodes, which can be scalars, sequences, or mappings. Each node is represented by a key-value pair, where the key is separated from the value by a colon and a space. The key-value pair is indented to indicate the nesting level.
 
-#### YAML Node
+## YAML Nodes
 
 A YAML node is a single data item in a YAML document and can be one of the following types:
 
@@ -35,7 +35,7 @@ A YAML node is a single data item in a YAML document and can be one of the follo
 - **Sequence**: An ordered list of values. **Also known as an array or list.**
 - **Mapping**: A collection of key-value pairs. **Also known as an object or dictionary.**
 
-#### Scalar Node Example:
+### Scalar Node Example:
 
 ```yaml
 name: John Doe #string [scalar]
@@ -43,7 +43,7 @@ age: 30 #number [scalar]
 is_student: false #boolean [scalar]
 ```
 
-#### Sequence Node Examples:
+### Sequence Node Examples:
 
 ```yaml
 fruits: #sequence [array]
@@ -59,7 +59,7 @@ fruits: [apple, banana, orange] #sequence [array]
 Remember that the order matters with sequences but not with mappings.
 {: .bubble-note}
 
-#### Mapping Node Example:
+### Mapping Node Example:
 
 ```yaml
 person: #mapping [object]
@@ -68,7 +68,7 @@ person: #mapping [object]
   is_student: false #boolean [literal]
 ```
 
-#### Putting it all together:
+### Putting it all together:
 
 You can mix and match these node types to create complex data structures in YAML. The following example is a combination of scalar, sequence, and mapping nodes:
 
@@ -89,7 +89,7 @@ person:
 
 In this example, the `person` node is a mapping that contains scalar nodes for `name`, `age`, and `is_student`, a sequence node for `hobbies`, and another mapping node for `address`.
 
-#### Indentation
+## Indentation
 
 Indentation is crucial in YAML to define the structure of the data. The number of spaces used for indentation is not fixed but must be consistent throughout the document. The most common indentation style is two spaces, but four spaces and tabs are also used.
 
@@ -102,7 +102,7 @@ example:  #indention level 1
       type: "awesome" #indentation level 3 (4 spaces deep)
 ```
 
-#### Multi-line Strings
+## Multi-line Strings
 
 YAML supports multi-line strings using the `|` character followed by a newline. This allows you to write long strings without worrying about indentation.
 
@@ -112,7 +112,7 @@ description: |
   string in YAML
 ```
 
-#### Comments
+## Comments
 
 Comments in YAML start with a `#` symbol and can be placed at the end of a line or on a separate line. Comments are ignored by the YAML parser and are used to provide additional information or context to the data.
 
@@ -120,11 +120,12 @@ Comments in YAML start with a `#` symbol and can be placed at the end of a line 
 # This is a comment
 name: John Doe # This is another comment
 ```
-#### YAML Parsers
+
+## YAML Parsers
 
 To validate and format YAML data, you can use online parsers.
 My favorite online YAML parser is [codebeautify.org](https://codebeautify.org/yaml-parser-online)
 
-#### Conclusion
+## Conclusion
 
 YAML is used in many applications and systems due to its human-readable format and flexibility. Understanding the basic structure of YAML documents and nodes is essential for working with YAML files effectively. Good luck!

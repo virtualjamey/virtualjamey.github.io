@@ -83,7 +83,13 @@ The `visudo` command should always be used to edit the sudoers file as it perfor
 The sudoers file uses a specific syntax to define user permissions. The following is an example of the sudoers file syntax:
 
 ```bash
-# User privilege specification
+
+# Clears environment variables by default
+Defaults    env_reset
+# Defines a secure path for executing commands
+Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# Root user can run any command on any host as any user or group
 root    ALL=(ALL:ALL) ALL
 
 # Members of the sudo group are granted sudo privileges
@@ -104,6 +110,8 @@ username ALL=(ALL:ALL) NOPASSWD: ALL
 
 Explanation of each part:
 
+- `Defaults    env_reset`: Clears environment variables by default.
+- `Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"`: Defines a secure path for executing commands.
 - `root    ALL=(ALL:ALL) ALL`: The root user can run any command on any host as any user or group.
 - `%sudo   ALL=(ALL:ALL) ALL`: Members of the sudo group can run any command on any host as any user or group.
 - `username ALL=(ALL:ALL) ALL`: The specified user can run any command on any host as any user or group.

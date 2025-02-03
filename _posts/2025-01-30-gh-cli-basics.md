@@ -17,25 +17,25 @@ tags:
   - fundamentals
 ---
 
-### What is GitHub CLI?
+## What is GitHub CLI?
 
 Github CLI is a command-line interface for GitHub that allows you to interact with GitHub repositories, issues, pull requests, and more directly from the command line. It provides a convenient way to perform common GitHub operations without leaving the terminal.
 
-#### GitHub CLI Installation
+## GitHub CLI Installation
 
 You can install Github CLI by downloading the binary from the [GitHub CLI releases page](https://github.com/cli/cli/releases) and adding it to your system's PATH. Alternatively, you can use a package manager like Homebrew on macOS or Chocolatey on Windows to install Github CLI.
 
-#### GitHub CLI Configuration
+## GitHub CLI Configuration
 
 After installing Github CLI, you need to authenticate with your GitHub account using the `gh auth login` command. This will open a browser window where you can authorize the CLI to access your GitHub account. Once authenticated, you can start using Github CLI to interact with GitHub repositories.
 
 <image src="assets/img/posts/ghcliauth.gif" alt="Spinners" width="450" /> 
 
-#### GitHub CLI Commands
+## GitHub CLI Commands
 
 Github CLI provides a set of commands for working with GitHub repositories, issues, pull requests, and more. Some of my most used commands are:
 
-##### Repositories
+### Repositories
 
 - `gh repo list`: List GitHub repositories.
 - `gh status`: Show the status of the current repository.
@@ -44,7 +44,7 @@ Github CLI provides a set of commands for working with GitHub repositories, issu
 - `gh repo clone <repository>`: Clone a GitHub repository to your local machine.
 - `gh repo fork <repository>`: Fork a GitHub repository.
 
-##### Pull Requests
+### Pull Requests
 
 - `gh pr list`: List pull requests in a GitHub repository.
 - `gh pr status`: Show the status of pull requests in the current repository.
@@ -53,7 +53,7 @@ Github CLI provides a set of commands for working with GitHub repositories, issu
 - `gh pr checkout <pull-request-number>`: Check out a pull request locally.
 - `gh pr merge <pull-request-number>`: Merge a pull request.
 
-##### Issues
+### Issues
 
 - `gh issue list`: List issues in a GitHub repository.
 - `gh issue status`: Show the status of issues in the current repository.
@@ -62,7 +62,7 @@ Github CLI provides a set of commands for working with GitHub repositories, issu
 
 There are many more commands available in Github CLI, and you can explore them by running `gh help` or `gh help <command>`. or by visiting the [GitHub CLI documentation](https://cli.github.com/manual/).
 
-#### GitHub CLI Tips
+### GitHub CLI Tips
 
 - Use `gh help` to get help on commands and flags.
 - Use `gh alias set` to create custom aliases for frequently used commands.
@@ -71,6 +71,6 @@ There are many more commands available in Github CLI, and you can explore them b
 GitHub CLI supports tab completion by running `gh completion` and using the output in your shells runtime configuration.
 {: .bubble-note}
 
-#### Conclusion
+## Conclusion
 
 GitHub CLI is my favorite way to interact with GitHub repositories and perform common GitHub operations from the command line.
