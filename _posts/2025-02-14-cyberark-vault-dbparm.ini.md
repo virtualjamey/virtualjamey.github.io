@@ -21,7 +21,7 @@ tags:
   - vault
 ---
 
-## CyberArk DBParm.ini Configuration File Details
+## Introduction
 
 The `DBParm.ini` file is a core configuration file for the CyberArk Vault. It contains essential parameters for the Vault's operation, including database settings, paths to key files, and other critical configuration options. The `DBParm.ini` file is located in the `C:\Program Files (x86)\PrivateArk\Server\Conf` directory by default. These are some of the most important parameters in the `DBParm.ini`
 <br>

@@ -1,5 +1,5 @@
 ---
-title: Linux Users and Groups Part Two
+title: Linux Users and Groups - Part 2
 description: More basics of Linux users and groups
 date: 2025-02-02 21:40:00 -0300
 # image:
@@ -18,7 +18,7 @@ tags:
   - fundamentals
 ---
 
-### Introduction to Linux Users and Groups Part 2
+### Introduction
 
 Following from [Part One](https://jamey.one/linux-users-and-groups-part-1) this article provides an overview of Linux user and group management commands.
 

@@ -1,5 +1,5 @@
 ---
-title: Linux Users and Groups Part One
+title: Linux Users and Groups - Part 1
 description: Basics of Linux users and groups
 date: 2025-02-02 20:40:00 -0300
 # image:
