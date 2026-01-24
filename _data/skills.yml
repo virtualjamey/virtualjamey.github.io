@@ -3,11 +3,9 @@
 
 skills:
   - skill: 1password
-  - skill: amazoniam
   - skill: ansible
   - skill: apple
   - skill: audible
-  - skill: awssecretsmanager
   - skill: cloudflare
   - skill: docker
   - skill: bruno
