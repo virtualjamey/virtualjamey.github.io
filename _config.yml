@@ -9,7 +9,7 @@ lang: en
 timezone: America/New_York # Change to your timezone - https://kevinnovak.github.io/Time-Zone-Picker/
 
 title: Jamey
-tagline: Journey Before Destination
+tagline: 
 description: A Jekyll theme with sidebar for personal website and blog. 
 avatar: "assets/img/avatar/glasses.png" # The avatar on sidebar
 

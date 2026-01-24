@@ -61,7 +61,7 @@ img {
 }
 
 .main-content {
-  width: calc(100vw - 350px);
+  width: calc(100vw - 250px);
   float: right;
   padding: 0 4rem;
   display: flex;
