@@ -1,6 +1,6 @@
 <figure>
 
-  <img src="{{ include.url | absolute_url}}" alt="{{ include.alt }}" loading="lazy">
+  <img src="{{ include.url | absolute_url}}" alt="{{ include.alt }}" loading="lazy"{% if include.width %} style="width: {{ include.width }};"{% endif %}>
 
   <figcaption>{{ include.caption }}</figcaption>
 
